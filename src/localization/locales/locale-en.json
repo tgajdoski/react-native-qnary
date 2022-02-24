@@ -1,0 +1,501 @@
+{
+  "LANGUAGES": {
+    "en": "English",
+    "it": "Italian",
+    "es": "Spanish",
+    "ja": "Japanese"
+  },
+
+  "GENERIC": {
+    "OKAY_BUTTON": "Okay",
+    "CANCEL_BUTTON": "Cancel",
+    "CLOSE_BUTTON": "Close",
+    "SUCCESS": "Success",
+    "ERROR": "Error",
+    "NEXT": "Next",
+    "SKIP": "Skip",
+    "BACK": "Back",
+    "CONTINUE": "Continue",
+    "FINISH": "Finish",
+    "UNDO": "Undo",
+    "CLICK_HERE": "Click here",
+    "PULLING_TEXT": "Pull to refresh...",
+    "CHECKING": "Checking for new content..."
+  },
+
+  "MENU": {
+    "LOGIN": "Login",
+    "LOGOUT": "Log out",
+    "CONTENT": "Content",
+    "INSIGHTS": "Insights",
+    "FEED": "Feed",
+    "CONTACT_ADMIN": "Contact Admin",
+    "OPTIMIZE": "Social Profiles",
+    "TRACK": "Search Results",
+    "PROFILE": "Profile",
+    "SETTINGS": "Settings",
+    "REPORT": "Report",
+    "PRIVACY_POLICY": "Privacy Policy"
+  },
+
+  "LOGIN": {
+    "EMAIL": "E-mail",
+    "USERNAME": "Username",
+    "PASSWORD": "Password",
+    "LOGIN": "Log In",
+    "FORGOT_PASSWORD": {
+      "DESCRIPTION": "We just need your registered E-mail to send you password reset instructuons.",
+      "RESET": "Reset",
+      "FORGOT_PASSWORD": "Forgot Password?",
+      "PASSWORD_RESET": "Reset password",
+      "ENTER_YOUR_USERNAME": "Enter your username",
+      "ERROR_RESETTING_PASSWORD": "Error resetting password",
+      "PASSWORD_RESET_EMAIL_SENT": "Password reset email has been sent."
+    },
+    "SELECT_LANGUAGE": "Select language:",
+    "PRIVACY_POLICY": "Privacy Policy"
+  },
+
+  "WELCOME": {
+    "HI": "Hi",
+    "INFO": "Set up Qnary and get access to all our features.",
+    "LETS_START": "Let`s get started"
+  },
+
+  "NOTIFICATIONS": {
+    "TITLE": "Notifications",
+    "NEW_SEARCH_RESULT": "You've got a new search result.",
+    "TIME_AGO": "3 minutes ago",
+    "QNARY_NOTIFIES_YOU": "Qnary notifies you when there are opportunities",
+    "YOU_WILL_RECEIVE": "You will receive notifications when we see an opportunity to expand or understand your digital footprint.",
+    "THESE_ARE_BASED": "These are based on your goals, your links, your profiles, and your name.",
+    "ALLOW": "Allow notifications?",
+    "ALLOW_BUTTON": "Allow notifications",
+    "NO_NOTIFICATIONS": "No, I don't want notifications"
+  },
+
+  "SMS": {
+    "ALLOW": "Enter phone number",
+    "ALLOW_BUTTON": "Add Phone",
+    "MESSAGE_SMS": "Enter your mobile phone number to receive important messages via SMS.",
+    "REMOVE_MESSAGE_SMS": "Remove your mobile phone number to stop receiving important messages via SMS.",
+    "NOTE_SMS": "We know you get too many messages already so we will only message you with extremely important items.",
+    "NO_SMS": "No, I don't want SMS",
+    "PHONE_NUMBER": "Phone number",
+    "SEND_BUTTON": "Confirm",
+    "REMOVE_BUTTON": "Remove",
+    "SMS_SETTINGS_SAVED": "SMS settings are saved."
+  },
+
+  "INSIGHTS": {
+    "FEED": "{{ name }}`s Feed",
+    "NO_INSIGHTS": "There are no insights to display.",
+    "MORE": "More...",
+    "REVIEW_NOW": "Review Now",
+    "ADD_NOW": "Add Now",
+    "VIEW_RESULTS": "View Results",
+    "GOT_IT": "Got it!",
+    "LETS_DO_THIS": "Let's Do This",
+    "RANK": "Rank: #{{ rank }}",
+    "SHARE": {
+      "SHARE": "Share",
+      "SHARE_CONFIRMATION": "Nice work! Your post has been shared.",
+      "WHAT_DO": "What do you want to do with this?",
+      "MESSAGE_ADMIN": "Message Admin",
+      "RETWEET": "Retweet",
+      "TWEET_THIS": "Tweet This",
+      "COPY_URL": "Copy Share URL",
+      "URL_COPIED": "URL copied to clipboard."
+    },
+    "INSIGHTS": {
+      "QNARY_UPDATE": "Qnary Update",
+      "OPTIMIZE": {
+        "OPTIMIZE": "Optimization",
+        "INITIAL": {
+          "SCANNING": "We are scanning for social media profiles associated with <strong>{{ name }}</strong>...",
+          "SIT_TIGHT": "Sit tight...once we get back the results, you'll be able to claim your social profiles for us to score and analyze. You can always add any of your profiles we did not find.",
+          "TIRED": "Tired of waiting? ",
+          "ADD_PROFILES": " to add your social networks and other profiles yourself."
+        },
+        "RESULTS": {
+          "WE_FOUND": {
+            "0": "Good job! We found {{ optimizations }} ways to make your <strong>{{ profile }}</strong> more visible.",
+            "1": "We found {{ optimizations }} way to make your <strong>{{ profile }}</strong> more visible.",
+            "OTHER": "We found {{ optimizations }} ways to make your <strong>{{ profile }}</strong> more visible."
+          },
+          "WE_ANALYZED": "We analyzed your <strong>{{ profile }}</strong> for visibility and completeness.",
+          "YOUR_ADMIN": "Your administrator will review this profile and recommend ways you can optimize its visibility and make it more complete.",
+          "TAKE_THESE_STEPS": "Take these steps to increase the likelihood that your profile and its content can be found.",
+          "NOTE": "If you don't want to optimize this network for visibility, <a href='optimize'>you can indicate this on the optimization page</a> so we won't bother you about it any more.  Its visibility will not contribute to your Qnary Score, but we will still check on it for possible privacy issues."
+        }
+      },
+      "SCAN": {
+        "RESULTS": {
+          "WE_FOUND": "We found your social networks.",
+          "REVIEW": "Review and confirm these for a complete analysis of your visibility.  You can add any that you don't see here.",
+          "CONNECT": "Connect select networks to raise your score and get a deeper analysis, including privacy insights.",
+          "HRMPH": "Hrmph.  We couldn't find you anywhere.",
+          "THATS_OKAY": "That's OK.  Let's go add your properties and profiles manually."
+        }
+      },
+      "SCORE": {
+        "INITIAL": {
+          "LOOK_UP": "Look up!  You've scored!  That's because we found stuff.",
+          "EVERY_TIME": "Every time you connect social networks, optimize your profiles, or find favorable search results, your score goes up.  It's a measure (out of 100) of how favorable your visible digital self is."
+        }
+      },
+      "SEARCH": {
+        "SEARCH": "Search",
+        "CHANGED": {
+          "TRACKED_LINK": "The following tracked link's appearance has changed when displayed by <span class='insights-label'>{{ network }}</span>:",
+          "USED_TO_APPEAR": "This is how it used to appear when someone searched for {{ q }}:",
+          "NOW_IT_READS": "Now it reads:"
+        },
+        "ENTERED_TOP100": {
+          "YOUR_LINK": "Your link <a class='insights-label' href='{{ url }}'>{{ url }}</a> is now being tracked and is presently at position #{{ position }} in {{ network }} search results for <strong>{{ q }}</strong>."
+        },
+        "INITIAL": {
+          "SCANNING": "We are scanning the search engines for <strong>{{ q }}</strong>...",
+          "SIT_TIGHT": "Sit tight...  Once we get back the results, you'll be able to review, rate, and track these links.  We'll also alert you when we find new ones."
+        },
+        "LEAVE_TOP10": {
+          "LOOKS_LIKE": "{{ oops == 1 ? 'Oops. ' : '' }}Looks like a {{ rating }} link has dropped out of the top ten search results for <strong>{{ q }}</strong>.",
+          "TRY_PROMOTING": "Try promoting that link with a tweet or mention on any of your other properties to ensure that people will find it.",
+          "PAYING_OFF": "Looks like your work is paying off.",
+          "PAYING_OFF2": "{{ NOT_CURRENTLY_IN_USE }}Looks like your work is paying off. Your top ten search results now include {( positive )} positive links and {( negative )} negative."
+        },
+        "MOVED": {
+          "PRE": {
+            "UPWARD": "Upward momentum! ",
+            "YIKES": "Yikes. ",
+            "BAM": "Bam! "
+          },
+          "MOVED": "A {{ rating }} link has moved {{ direction > 0 ? 'up' : 'down' }} {{ positions }} positions for <strong>{{ q }}</strong>.",
+          "PROMOTE": "1. Promote it on other profiles and future posts.",
+          "GET_NEW_CONTENT": "2. Get new content on there if you can. It might be getting stale!",
+          "GREAT": "Great! This link seems to be getting some traffic or promotion.",
+          "THATS_OKAY": "That's OK. Focus on promoting your positive links to push it back down.",
+          "GOOD_NEWS": "Good news! Keep mentioning or adding content on your owned profiles to keep it that way."
+        },
+        "NEW_TOP10": {
+          "WE_FOUND": "We have found a new top ten search result for your saved search <strong>{{ q }}</strong>.",
+          "LET_US_KNOW": "Let us know if this is a positive or negative link. Ignore it or rate it neutral if it doesn't bother you or is unrelated to you."
+        },
+        "REENTERED_TOP10": {
+          "CONGRATULATIONS": "Congratulations! One of the links you identified as positive re-entered the top ten for <strong>{{ q }}</strong>.",
+          "PROMOTE": "Make sure you're promoting it across your social channels and keep it there.",
+          "REENTERED": "One of the links you identified as {{ rating }} re-entered the top ten for <strong>{{ q }}</strong>.",
+          "MAKE_SURE": "Make sure your positive links are being promoted across all of your social profiles and publish some content this week to try to push it back out."
+        },
+        "RESULTS": {
+          "SCANNING": "@:INSIGHTS.INSIGHTS.SEARCH.INITIAL.SCANNING",
+          "SIT_TIGHT": "@:INSIGHTS.INSIGHTS.SEARCH.INITIAL.SIT_TIGHT",
+          "WE_FOUND": "We found search results for <strong>{{ q }}</strong>.",
+          "REVIEW_RATE": "Review and rate them so we can track them across search engines and you can own your results.",
+          "REVIEW": "Review",
+          "RATE": "Rate",
+          "RECEIVE": "Receive Alerts",
+          "WE_USED": "We used your name to start.  You can track others by adding them from the <a ui-sref='user.track.index'>search results page</a>, where you can review results."
+        }
+      },
+      "SOCIAL": {
+        "ENGAGEMENT": {
+          "ENGAGEMENT": "Engagement",
+          "CONTENT": {
+            "MOST_ENGAGING": "This is your most engaging recent Tweet. More like this, shall we?"
+          },
+          "ENGAGERS": {
+            "MOST_INFLUENTIAL": "{{ name }} is this past week's most influential person to engage with you.",
+            "REACH_OUT": "If you haven't yet, reach out with a thanks and a follow!",
+            "MOST_ENGAGED": "{{ name }} engaged with you the most this past week.",
+            "TAKE_A_LOOK": "Take a look and follow them or return the favor."
+          },
+          "OVERALL": {
+            "SLIPPED": "Oops...you slipped a bit last week on {{ network }}.",
+            "GREAT_WEEK": "Last week was a great week on {{ network }}!",
+            "DROP": "Your overall engagement took a noticable drop compared to the week before. Try mixing up the subject matter.",
+            "IMPROVEMENT": "Your overall engagement was a huge improvement from the week before. Keep these kinds of tweets coming!"
+          }
+        },
+        "FOLLOWERS": {
+          "CONGRATULATIONS": "Congratulations! You've got followers!",
+          "PICKED_UP": {
+            "1": "You picked up {{ count }} {{ network }} follower yesterday. ",
+            "OTHER": "You picked up {{ count }} {{ network }} followers yesterday. "
+          },
+          "NICE_WORK": "Nice work. Be sure to post some new content while you are top of mind!"
+        },
+        "MILESTONES": {
+          "FOLLOWERS": {
+            "CONGRATULATIONS": "Congratulations! You now have {{ tier }} followers on Twitter!",
+            "NEXT": "We'll let you know when you hit your next milestone."
+          }
+        }
+      },
+      "STREAM": {
+        "SUPERFEEDR": {
+          "NEWS": "News",
+          "RULE": {
+            "NEW_ARTICLES": "{{ length }} new articles from",
+            "BYLINE": " - by {{ name }}"
+          },
+          "RULE_02": {
+            "BYLINE": "@:INSIGHTS.INSIGHTS.STREAM.SUPERFEEDR.RULE.BYLINE"
+          }
+        },
+        "TWITTER": {
+          "ACTIVITY": {
+            "ACTIVITY": "Activity"
+          },
+          "ENGAGEMENT": {
+            "ENGAGEMENT": "Engagement"
+          },
+          "RULE": {
+            "RETWEET": "{{ actor }} retweeted {{ user }}.",
+            "MENTION": "{{ actor }} mentioned {{ mention }}.",
+            "FROM_SHARE": "{{ actor }} retweeted.",
+            "FROM": "{{ actor }} tweeted.",
+            "LINK": "{{ actor }} mentioned a link associated with {{ mention }}.",
+            "REPLIED_TO": "{{ actor }} replied to {{ user }}.",
+            "TO": "{{ actor }} tweeted.",
+            "ABOUT": "{{ actor }} tweeted about {{ about }}.",
+            "INCLUDE": "{{ actor }} tweeted about {{ about }}.",
+            "DEFAULT": "You wanted to know about this tweet."
+          },
+          "TWITTER_TWEET": {
+            "TWITTER_TWEET": "Tweet"
+          }
+        },
+        "BUZZSUMO": {
+          "TRENDING": "Trending",
+          "RULE_01": {
+            "BYLINE": " - by {{ name }}"
+          }
+        }
+      },
+      "WELCOME": {
+        "WELCOME": "Welcome!",
+        "INITIAL": {
+          "WELCOME": "Welcome to your insights feed!  This is where it all happens!",
+          "LETS_FIND": "Let's find <strong>{{ name }}</strong> across the internet so we can start tracking your presence and delivering personal insights that will help you expand your desired digital footprint!  You in?"
+        }
+      }
+    }
+  },
+
+  "CONTENT": {
+    "MY_CONTENT": "My Content",
+    "ALERT": "Alert",
+    "APPROVAL": "Approval",
+    "APPROVALS": "Approvals",
+    "CONTENT": "Content",
+    "NO_CONTENT": "You don't have any content.",
+    "NO_CONTENT_TO_REVIEW": "You don't have any content to review.",
+    "CHECK_OUT_FEED": "Why don't you check out the feed?",
+    "UNIQUE_FEED": "Your unique feed of news and insights.",
+    "TWEET_MYSELF": "Tweet this myself",
+    "POST_MYSELF": "Post this myself",
+    "ADMIN_NOTIFIED": "Your admin will be notified.",
+    "SCHEDULED_FOR_PUBLISH": "Your Content is Scheduled for Publishing!",
+    "ADD_COMMENT": "Add a comment.  Follow with approval or rejection button below.",
+    "APPROVED_ALL": "Approve All",
+    "REJECTED_ALL": "Reject All",
+    "REQUIRES_APPROVAL": "Requires Approval",
+    "SCHEDULED": "Scheduled",
+    "SENT": "Sent",
+    "PUBLISHED": "Published",
+    "NO_CONNECTION": "No connection",
+    "STATUS": {
+      "PENDING": "Pending",
+      "DRAFT": "Draft",
+      "WITHDRAWN": "Withdrawn",
+      "SENT": "Sent",
+      "APPROVED": "Approved",
+      "REJECTED": "Rejected",
+      "DELETED": "Deleted",
+      "DONE": "Completed"
+    },
+    "VALIDATION": {
+      "MAX_LENGTH_EXCEEDED": "Oops, looks like you exceeded {{postTypeName}}'s {{postTypeCharLimit}} character limit. Please edit your content to fit within {{postTypeName}}'s character limit."
+    }
+  },
+
+  "TRACK": {
+    "RATINGS": {
+      "LIKE": "I like this.",
+      "NEUTRAL": "This is irrelevant, but it doesn't bother me.",
+      "DISLIKE": "This is not me, or I don't like that it is here."
+    }
+  },
+
+  "SETTINGS": {
+    "SETTINGS": "Settings",
+    "MESSAGE_ADMIN": "Message Admin",
+    "MESSAGE_ADMIN_PLACEHOLDER": "Type or paste text here to send a message immediately to your administrator.",
+    "EMAIL_ADMIN": "Email my administrator",
+    "ACCOUNT_DETAILS": "Account Details",
+    "RECEIVE_NOTIFICATIONS": "Receive Notifications",
+    "PAUSE_NOTIFICATIONS": "Pause Notifications",
+    "RESUME_NOTIFICATIONS": "Resume Notifications",
+    "PAUSE_SMS": "Pause Sms",
+    "RESUME_SMS": "Resume Sms",
+    "NOTIFICATIONS_NOTE": "Note: This setting will stop system-generated insights. It will not stop notifications for unique content sent to you to approve or publish.",
+    "NOTE_SMS": "Note: This setting will stop system-generated SMS.",
+    "RECEIVE_EMAIL": "Receive Email",
+    "CHANGE_PASSWORD": {
+      "CHANGE_PASSWORD": "Change Password",
+      "CURRENT_PASSWORD": "Current password",
+      "NEW_PASSWORD": "New password",
+      "CONFIRM_NEW_PASSWORD": "Confirm new password",
+      "SHOW_PASSWORDS": "Show passwords",
+      "PASSWORD_CHANGED": "Your password has been changed.",
+      "PASSWORD_CHANGE": "Password change",
+      "BEFORE_CONTINUING": "Please change your password before continuing.",
+      "REQUIREMENTS": "Passwords must contain at least 7 characters."
+    },
+    "CHANGE_EMAIL": {
+      "CHANGE_EMAIL": "Change Email",
+      "NEW_EMAIL": "New Email",
+      "EMAIL_CHANGED": "Email changed"
+    },
+    "CHANGE_SMS": {
+      "CHANGE_SMS": " SMS settings",
+      "ADD_PHONE": " Add Phone"
+    },
+    "CHOOSE_LANGUAGE": "Choose Language",
+    "PROFILE": {
+      "PROFILE": "Profile",
+      "EMAIL": "Email",
+      "PHONE": "Phone",
+      "TWITTER": "Twitter",
+      "LINKEDIN": "LinkedIn"
+    },
+    "RESET_CACHE": "Reset Cache"
+  },
+
+  "OPTIMIZE": {
+    "DIGITAL_FOOTPRINT": {
+      "DIGITAL_FOOTPRINT": "Social Profiles (NYI)"
+    },
+    "CONNECT": {
+      "CONNECT": "Connect",
+      "CONNECT_SOCIAL_CHANNELS": "Connect Social Channels",
+      "GET_RECOMMENDATIONS": "Get Recommendations",
+      "ADD_FOR_ANALYSIS": "Add your digital properties for analysis",
+      "ARE_YOU_SURE": "Are you sure?",
+      "ARE_YOU_SURE_DISCONNECT": "Are you sure you want to disconnect this {{ network }} profile?",
+      "ADD": "Add"
+    }
+  },
+
+  "MESSAGE_ADMIN": {
+    "MESSAGE_FROM": "Message to admin from ",
+    "QNARY_INSIGHTS": "Qnary Insights",
+    "QNARY_ADMINS": "Qnary Admins",
+    "QNARY_APPROVALS": "Qnary Approvals",
+    "MESSAGE_SENT": "Message sent."
+  },
+
+  "NETWORK_TERMS": {
+    "TWITTER": {
+      "CONNECTIONS": "Followers"
+    },
+    "GOOGLEPLUS": {
+      "CONNECTIONS": "Followers"
+    },
+    "GOOGLE_PLUS": {
+      "CONNECTIONS": "Followers"
+    },
+    "FACEBOOK": {
+      "CONNECTIONS": "Friends"
+    },
+    "LINKEDIN": {
+      "CONNECTIONS": "Connections"
+    },
+    "INSTAGRAM": {
+      "CONNECTIONS": "Followers"
+    }
+  },
+
+  "DISPLAY_NAMES": {
+    "GOOGLE": "Google",
+    "BING": "Bing",
+    "GOOGLE_CSE": "Google",
+    "GOOGLECSE": "Google",
+    "GOOGLE_IMAGES": "Google",
+    "GOOGLEIMAGES": "Google",
+
+    "TWITTER": "Twitter",
+    "LINKEDIN": "LinkedIn",
+    "FACEBOOK": "Facebook",
+    "GOOGLE_PLUS": "Google+",
+    "GOOGLEPLUS": "Google+",
+    "INSTAGRAM": "Instagram",
+    "TUMBLR": "Tumblr",
+    "YOUTUBE": "YouTube",
+
+    "ABOUTME": "about.me",
+    "ANGELLIST": "angelList",
+    "BEHANCE": "Behance",
+    "CRUNCHBASE": "Crunchbase",
+    "FLICKR": "Flickr",
+    "KLOUT": "Klout",
+    "PINTEREST": "Pinterest",
+    "QUORA": "Quora",
+    "SLIDESHARE": "Slideshare",
+    "SOUNDCLOUD": "SoundCloud",
+    "VIMEO": "Vimeo",
+    "WORDPRESS": "Wordpress",
+    "BLOG": "Blog"
+  },
+
+  "SOCIAL": {
+    "NETWORK_PROFILE": "{{ network }} profile",
+    "FOLLOWERS": "Followers",
+    "ENGAGEMENTS": "Engagements",
+    "SHARE": {
+      "PLEASE_PASTE_FACEBOOK": "Please paste the suggested text into the Facebook form.",
+      "PLEASE_PASTE_INSTAGRAM": "Please paste the suggested text into the Instagram form.",
+      "TOTAL": "Total Shares: {{total}}"
+    }
+  },
+
+  "SEARCH_RATINGS": {
+    "-1": "Negative",
+    "0": "Neutral",
+    "1": "Positive"
+  },
+
+  "ERRORS": {
+    "DEFAULT": "There was an error - please try again.",
+    "AUTHENTICATION_DISABLED": "@:ERRORS.DEFAULT",
+    "EMAIL_TAKEN": "The specified email is not available.",
+    "INVALID_ARGUMENTS": "@:ERRORS.DEFAULT",
+    "INVALID_CONFIGURATION": "@:ERRORS.DEFAULT",
+    "INVALID_CREDENTIALS": "The specified credentials are incorrect.",
+    "INVALID_EMAIL": "The specified email is invalid.",
+    "INVALID_ORIGIN": "@:ERRORS.DEFAULT",
+    "INVALID_PASSWORD": "The specified password is incorrect.",
+    "INVALID_PROVIDER": "@:ERRORS.DEFAULT",
+    "INVALID_TOKEN": "@:ERRORS.DEFAULT",
+    "INVALID_USER": "The specified user does not exist.",
+    "NETWORK_ERROR": "@:ERRORS.DEFAULT",
+    "PROVIDER_ERROR": "@:ERRORS.DEFAULT",
+    "TRANSPORT_UNAVAILABLE": "@:ERRORS.DEFAULT",
+    "UNKNOWN_ERROR": "@:ERRORS.DEFAULT",
+    "USER_CANCELLED": "@:ERRORS.DEFAULT",
+    "USER_DENIED": "@:ERRORS.DEFAULT",
+    "PASSWORD_MUST_BE_DIFFERENT": "The new password must be different than the old one.",
+    "PASSWORD_TOO_SHORT": "@:SETTINGS.CHANGE_PASSWORD.REQUIREMENTS",
+    "PASSWORDS_DO_NOT_MATCH": "Passwords don't match.",
+    "ERROR_CHANGING_PASSWORD": "Error changing password: ",
+    "ERROR_REGISTERING_NOTIFICATIONS": "Error registering notifications: {{ error }}\nRetry?",
+    "EMAIL_IN_USE": "Email is already in use.",
+    "REQUIRES_RECENT_LOGIN": "Requires recent login.",
+    "ERROR_CHANGING_EMAIL": "Error changing email: "
+  },
+
+  "REPORT": {
+    "NO_DATA": "No data available."
+  }
+}

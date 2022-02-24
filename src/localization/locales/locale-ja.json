@@ -1,0 +1,486 @@
+{
+  "LANGUAGES": {
+    "en": "English",
+    "it": "Italian",
+    "es": "Spanish",
+    "ja": "日本語"
+  },
+
+  "GENERIC": {
+    "OKAY_BUTTON": "OK",
+    "CANCEL_BUTTON": "キャンセル",
+    "CLOSE_BUTTON": "Close",
+    "SUCCESS": "成功",
+    "ERROR": "エラー",
+    "NEXT": "次へ",
+    "SKIP": "スキップ",
+    "BACK": "戻る",
+    "UNDO": "戻る",
+    "CLICK_HERE": "クリック",
+    "PULLING_TEXT": "更新",
+    "CHECKING": "新しいコンテンツニュースをチェック"
+  },
+
+  "MENU": {
+    "LOGIN": "ログイン",
+    "LOGOUT": "ログアウト",
+    "CONTENT": "コンテンツ",
+    "INSIGHTS": "インサイト",
+    "FEED": "フィード",
+    "CONTACT_ADMIN": "メッセージ",
+    "OPTIMIZE": "アカウント管理",
+    "TRACK": "検索結果",
+    "PROFILE": "プロフィール",
+    "SETTINGS": "設定",
+    "REPORT": "Report",
+    "PRIVACY_POLICY": "プライバシーポリシー"
+  },
+
+  "LOGIN": {
+    "EMAIL": "Eメール",
+    "USERNAME": "ユーザーネーム",
+    "PASSWORD": "パスワード",
+    "LOGIN": "ログイン",
+    "FORGOT_PASSWORD": {
+      "FORGOT_PASSWORD": "パスワードをお忘れの方",
+      "PASSWORD_RESET": "パスワードのリセット",
+      "ENTER_YOUR_USERNAME": "ユーザーネームの入力",
+      "ERROR_RESETTING_PASSWORD": "パスワード再設定エラー",
+      "PASSWORD_RESET_EMAIL_SENT": "パスワード再設定メールが送信されました"
+    },
+    "SELECT_LANGUAGE": "言語選択",
+    "PRIVACY_POLICY": "プライバシーポリシー"
+  },
+
+  "NOTIFICATIONS": {
+    "NEW_SEARCH_RESULT": "新しい検索結果があります",
+    "TIME_AGO": "３分後",
+    "QNARY_NOTIFIES_YOU": "Qnaryは機会があれば通知します",
+    "YOU_WILL_RECEIVE": "あなたへ役立つ、おすすめ情報をお送りします",
+    "THESE_ARE_BASED": "ゴール、関連リンク、プロフィール、氏名に基づいています",
+    "ALLOW": "お知らせ通知を許可しますか？",
+    "ALLOW_BUTTON": "お知らせ通知を許可",
+    "NO_NOTIFICATIONS": "お知らせ通知を許可しません"
+  },
+
+  "SMS": {
+    "ALLOW": "Enter phone number",
+    "ALLOW_BUTTON": "Add Phone",
+    "MESSAGE_SMS": "Enter your mobile phone number to receive important messages via SMS.",
+    "REMOVE_MESSAGE_SMS": "Remove your mobile phone number to stop receiving important messages via SMS.",
+    "NOTE_SMS": "We know you get too many messages already so we will only message you with extremely important items.",
+    "NO_SMS": "No, I don't want SMS",
+    "PHONE_NUMBER": "Phone number",
+    "SEND_BUTTON": "Confirm",
+    "REMOVE_BUTTON": "Remove",
+    "SMS_SETTINGS_SAVED": "SMS settings are saved."
+  },
+
+  "INSIGHTS": {
+    "FEED": "{{ name }}の最新情報",
+    "NO_INSIGHTS": "表示するインサイト情報がありません",
+    "MORE": "もっと詳しく",
+    "REVIEW_NOW": "レビューを書く",
+    "ADD_NOW": "追加する",
+    "VIEW_RESULTS": "結果を見る",
+    "GOT_IT": "わかった！",
+    "LETS_DO_THIS": "始めましょう",
+    "RANK": "ランキング（＃{{ rank }}）",
+    "SHARE": {
+      "SHARE": "共有する",
+      "SHARE_CONFIRMATION": "Nice work! Your post has been shared.",
+      "WHAT_DO": "次になにをしますか？",
+      "MESSAGE_ADMIN": "メッセージダッシュボード",
+      "RETWEET": "リツイート",
+      "TWEET_THIS": "今すぐ投稿する",
+      "COPY_URL": "URLリンクをシェアする",
+      "URL_COPIED": "URLをクリップボードにコピー"
+    },
+    "INSIGHTS": {
+      "QNARY_UPDATE": "Qnaryのアップデート",
+      "OPTIMIZE": {
+        "OPTIMIZE": "最適化",
+        "INITIAL": {
+          "SCANNING": "ソーシャルメディアプロフィールを {{ name }} をもとにスキャンニングしています...",
+          "SIT_TIGHT": "検索結果を集約しています",
+          "TIRED": "もう待ち疲れました？",
+          "ADD_PROFILES": " あなたのソーシャルネットワーク、プロフィールを追加する"
+        },
+        "RESULTS": {
+          "WE_FOUND": {
+            "0": "Good job! あと {{ optimizations }} つのポイントを改善するとあなたの <strong>{{ profile }}</strong> プロフィールはより良く目立ちます",
+            "1": "あと {{ optimizations }} つのポイントを改善するとあなたの <strong>{{ profile }}</strong> プロフィールはより良く目立ちます",
+            "OTHER": "あと {{ optimizations }} つのポイントを改善するとあなたの <strong>{{ profile }}</strong> プロフィールはより良く目立ちます"
+          },
+          "WE_ANALYZED": "あなたの <strong>{{ profile }}</strong> 上での目立ち度と完成度を分析しました",
+          "YOUR_ADMIN": "プロフィールをレビューした上でソーシャルプロフィールのより改善方法をアドバイスします",
+          "TAKE_THESE_STEPS": "これらのステップをこなしてあなたのプロフィールやコンテンツをビジュアル化しましょう",
+          "NOTE": "もし目立つためにネットワークを最適化しないのであれば、最適化ページにこれを示すことができるので、これ以上はなにもしません。目立ちやすさは、Qnaryスコアに関係しませんが、"
+        }
+      },
+      "SCAN": {
+        "RESULTS": {
+          "WE_FOUND": "あなたのソーシャルネットワークがみつかりました",
+          "REVIEW": "可視化度を分析するために再度リストを確認し、承認してください。リストに追加することも可能です",
+          "CONNECT": "検索・分析内容をより最適化したいネットワークをこちらに追加してください",
+          "HRMPH": "あなたのネットワークが見当たりませんでした",
+          "THATS_OKAY": "一覧に表示れていない場合は、ネットワークを手動で入力しましょう"
+        }
+      },
+      "SCORE": {
+        "INITIAL": {
+          "LOOK_UP": "スコアがアップしました！",
+          "EVERY_TIME": "新規ソーシャルネットワークを追加したり、プロフィールを最適化したり、お気に入りの検索結果を追加することでスコアが上がります。"
+        }
+      },
+      "SEARCH": {
+        "SEARCH": "検索",
+        "CHANGED": {
+          "TRACKED_LINK": "<span class='insights-label'>{{ network }}</span>上ではリンクの表示方法がか変わる可能性があります",
+          "USED_TO_APPEAR": "以前の{{ q }}検索結果表示",
+          "NOW_IT_READS": "今読む"
+        },
+        "ENTERED_TOP100": {
+          "YOUR_LINK": "登録されたリンク <a class='insights-label' href='{{ url }}'>{{ url }}</a> は現在 {{ network }} 上で{{ position }} として <strong>{{ q }}</strong> 検索結果として表示されています"
+        },
+        "INITIAL": {
+          "SCANNING": "<strong>{{ q }}</strong>を検索エンジンでスキャンニング中",
+          "SIT_TIGHT": "検索結果を集めています"
+        },
+        "LEAVE_TOP10": {
+          "LOOKS_LIKE": "{{ oops == 1 ? '申し訳ございません。 ' : '' }}<strong>{{ q }}</strong>さんのトップ10サーチランキングから {{ rating }} リンクが外れました",
+          "TRY_PROMOTING": "トップサーチランキングにランクインするためにSNS上で再度リンクをシェアしてみましょう",
+          "PAYING_OFF": "「この調子で頑張りましょう」「成果が現れています」の文章がひらめきました。いかがでしょうか？^^",
+          "PAYING_OFF2": "{{ NOT_CURRENTLY_IN_USE }}Looks like your work is paying off. Your top ten search results now include {( positive )} positive links and {( negative )} negative. (ja)"
+        },
+        "MOVED": {
+          "PRE": {
+            "UPWARD": "順調です！",
+            "YIKES": "ああ",
+            "BAM": "すばらしい！"
+          },
+          "MOVED": "<strong>{{ q }}</strong>さんの{{ rating }}リンクが{{ positions }}つランク{{ direction > 0 ? 'アップ' : 'ダウン' }}しました",
+          "PROMOTE": "1. 他のデジタルプロフィール上でシェアする",
+          "GET_NEW_CONTENT": "2. 同リンクページ内に新しいコンテンツを追加する",
+          "GREAT": "おめでとうございます！トラフィックが増えてます",
+          "THATS_OKAY": "That's OK. ポジティブリンクのランクアップを目指し、ネガティブリンクのランクを下げよう",
+          "GOOD_NEWS": "Good news! デジタルプロフィールに新しいコンテンツを追加しながらネガティブリンク対応をしましょう"
+        },
+        "NEW_TOP10": {
+          "WE_FOUND": "<strong>{{ q }}</strong> さんに関するリンクページがトップ10入りしました",
+          "LET_US_KNOW": "本リンクがポジティブリンクまたはネガティブリンクか教えてください どちらでもないリンク、または関連性が低いリンクであればそのままにしてください"
+        },
+        "REENTERED_TOP10": {
+          "CONGRATULATIONS": "おめでとうございます！<strong>{{ q }}</strong> が検索結果TOP10に入りました！！",
+          "PROMOTE": "他のソーシャルネットワーク上でリンクをシェアしましょう。",
+          "REENTERED": "あなたのリンク{{ rating }}が<strong>{{ q }}</strong>の検索結果としてTOP10にはいりました。",
+          "MAKE_SURE": "ソーシャルネットワーク上であなたの評価が高いリンクをシェアしましょう。新しいコンテンツを追加することでさらなるスコアアップを目指しましょう"
+        },
+        "RESULTS": {
+          "SCANNING": "@:INSIGHTS.INSIGHTS.SEARCH.INITIAL.SCANNING",
+          "SIT_TIGHT": "@:INSIGHTS.INSIGHTS.SEARCH.INITIAL.SIT_TIGHT",
+          "WE_FOUND": "<strong>{{ q }}</strong>の検索結果が見つかりました",
+          "REVIEW_RATE": "リンクをレビューしてください。",
+          "REVIEW": "レビュー",
+          "RATE": "評価する",
+          "RECEIVE": "アラートを受け取る",
+          "WE_USED": "結果の評価場所で、検索結果ページから、他ユーザーを追加することで、そのユーザープロフィールを見れます。"
+        }
+      },
+      "SOCIAL": {
+        "ENGAGEMENT": {
+          "ENGAGEMENT": "エンゲージメント",
+          "CONTENT": {
+            "MOST_ENGAGING": "この投稿へのエンゲージメントが一番高かったです。類似コンテンツがあればTweetしてみてはいかがでしょうか？"
+          },
+          "ENGAGERS": {
+            "MOST_INFLUENTIAL": "{{ name }}が一番エンゲージ力が高かった方です",
+            "REACH_OUT": "まだフォローしていなければ是非フォローしてみてはいかがですか？",
+            "MOST_ENGAGED": "先週は{{ name }}さんからのエンゲージメント率が高かったです",
+            "TAKE_A_LOOK": "ポスト内容を見てフォローバックや「いいね」返しをしてみてはどうでしょう？"
+          },
+          "OVERALL": {
+            "SLIPPED": "{{ network }}で少しスコアダウンしています",
+            "GREAT_WEEK": "{{ network }}でスコアアップしました！",
+            "DROP": "少し異なる内容での投稿はいかがでしょう？",
+            "IMPROVEMENT": "今週は先週に比べてとても良い結果がでています。この調子です！"
+          }
+        },
+        "FOLLOWERS": {
+          "CONGRATULATIONS": "新しいフォロワーが増えました！",
+          "PICKED_UP": {
+            "1": "{{ count }} {{ network }} フォロワーが増えました ",
+            "OTHER": "{{ count }} {{ network }} フォロワーが増えました "
+          },
+          "NICE_WORK": "引き続きこの調子で投稿してください。"
+        },
+        "MILESTONES": {
+          "FOLLOWERS": {
+            "CONGRATULATIONS": "おめでとうございます！{{ tier }} 人フォロワー達成しました！",
+            "NEXT": "次のゴールに達成した時はまたお知らせします"
+          }
+        }
+      },
+      "STREAM": {
+        "SUPERFEEDR": {
+          "NEWS": "ニュース",
+          "RULE": {
+            "NEW_ARTICLES": "{{ length }} 新しい記事",
+            "BYLINE": " - {{ name }}の"
+          },
+          "RULE_02": {
+            "BYLINE": "@:INSIGHTS.INSIGHTS.STREAM.SUPERFEEDR.RULE.BYLINE"
+          }
+        },
+        "TWITTER": {
+          "ACTIVITY": {
+            "ACTIVITY": "アクティビティー"
+          },
+          "ENGAGEMENT": {
+            "ENGAGEMENT": "エンゲージメント"
+          },
+          "RULE": {
+            "RETWEET": "{{ actor }}が {{ user }}をリツイートしました",
+            "MENTION": "{{ actor }}が {{ mention }}について発言しました ",
+            "FROM_SHARE": "{{ actor }} がリツイートしました",
+            "FROM": "{{ actor }} がツイートしました",
+            "LINK": "{{ actor }} が{ mention }}に関するリンクについて発言しました",
+            "REPLIED_TO": "{{ actor }} が{{ user }}に変身しました",
+            "TO": "@:INSIGHTS.INSIGHTS.STREAM.TWITTER.RULE.FROM",
+            "ABOUT": "{{ actor }} が{{ about }}についてツイートしました",
+            "INCLUDE": "@:INSIGHTS.INSIGHT.STREAM.TWITTER.RULE.ABOUT",
+            "DEFAULT": "このツイートについてくわしく知りたい"
+          },
+          "TWITTER_TWEET": {
+            "TWITTER_TWEET": "ツイート"
+          }
+        },
+        "BUZZSUMO": {
+          "TRENDING": "Trending",
+          "RULE_01": {
+            "BYLINE": " - by {{ name }}"
+          }
+        }
+      },
+      "WELCOME": {
+        "WELCOME": "ようこそ！",
+        "INITIAL": {
+          "WELCOME": "インサイトページにようこそ！",
+          "LETS_FIND": "早速、<strong>{{ name }}</strong>をインターネットで検索してみましょう！"
+        }
+      }
+    }
+  },
+
+  "CONTENT": {
+    "MY_CONTENT": "コンテンツ",
+    "ALERT": "アラート",
+    "APPROVAL": "承諾する",
+    "APPROVALS": "承認",
+    "CONTENT": "コンテンツ",
+    "NO_CONTENT": "コンテンツがありません",
+    "NO_CONTENT_TO_REVIEW": "レビューするコンテンツはありません",
+    "CHECK_OUT_FEED": "フィードページで最新ニュース&インサイト情報をチェック",
+    "UNIQUE_FEED": "ニュース＆インサイトフィード",
+    "TWEET_MYSELF": "ツイートする",
+    "POST_MYSELF": "これを自分で投稿する",
+    "ADMIN_NOTIFIED": "こちらでアカウントマネージャへ回答します",
+    "SCHEDULED_FOR_PUBLISH": "承諾されたコンテンツは投稿予定日時に投稿されます",
+    "ADD_COMMENT": "コメント入力のうえ、OKボタンを押してください",
+    "APPROVED_ALL": "全てを承認する",
+    "REJECTED_ALL": "全てを却下する",
+    "REQUIRES_APPROVAL": "確認リクエスト",
+    "SCHEDULED": "投稿予定",
+    "SENT": "受信履歴",
+    "PUBLISHED": "出版された",
+    "STATUS": {
+      "PENDING": "保留",
+      "DRAFT": "下書き",
+      "WITHDRAWN": "削除内容",
+      "SENT": "送信",
+      "APPROVED": "承諾",
+      "REJECTED": "却下",
+      "DELETED": "削除",
+      "DONE": "成功"
+    },
+    "VALIDATION": {
+      "MAX_LENGTH_EXCEEDED": "Oops, looks like you exceeded {{postTypeName}}'s {{postTypeCharLimit}} character limit. Please edit your content to fit within {{postTypeName}}'s character limit."
+    }
+  },
+
+  "TRACK": {
+    "RATINGS": {
+      "LIKE": "いいね",
+      "NEUTRAL": "興味はあるか関連性がない内容",
+      "DISLIKE": "良くない"
+    }
+  },
+
+  "SETTINGS": {
+    "SETTINGS": "設定",
+    "MESSAGE_ADMIN": "アカウントマネージャに連絡",
+    "MESSAGE_ADMIN_PLACEHOLDER": "アカウントマネージャへのメッセージを入力",
+    "EMAIL_ADMIN": "アカウントマネージャにメール連絡",
+    "ACCOUNT_DETAILS": "アカウント情報",
+    "RECEIVE_NOTIFICATIONS": "お知らせを受け取る",
+    "PAUSE_NOTIFICATIONS": "お知らせ通知を一時停止する",
+    "RESUME_NOTIFICATIONS": "お知らせ通知を再開する",
+    "PAUSE_SMS": "Pause Sms",
+    "RESUME_SMS": "Resume Sms",
+    "NOTIFICATIONS_NOTE": "※コンテンツ確認リクエストのお知らせは停止することはできません",
+    "NOTE_SMS": "Note: This setting will stop system-generated SMS.",
+    "RECEIVE_EMAIL": "Eメールを受け取る",
+    "CHANGE_PASSWORD": {
+      "CHANGE_PASSWORD": "パスワードの変更",
+      "CURRENT_PASSWORD": "現状のパスワード",
+      "NEW_PASSWORD": "新しいパスワード",
+      "CONFIRM_NEW_PASSWORD": "新しいパスワードを確認",
+      "SHOW_PASSWORDS": "パスワードの表示",
+      "PASSWORD_CHANGED": "パスワードは変更されました",
+      "PASSWORD_CHANGE": "続ける前にパスワードの変更設定を行ってください",
+      "BEFORE_CONTINUING": "パスワードを変更してください",
+      "REQUIREMENTS": "パスワードは7文字以上で入力してください"
+    },
+    "CHANGE_EMAIL": {
+      "CHANGE_EMAIL": "Eメールを変更する",
+      "NEW_EMAIL": "新しいEメール",
+      "EMAIL_CHANGED": "電子メールが変更されました"
+    },
+    "CHANGE_SMS": {
+      "CHANGE_SMS": " SMS settings",
+      "ADD_PHONE": " Add Phone"
+    },
+    "CHOOSE_LANGUAGE": "言語選択",
+    "PROFILE": {
+      "PROFILE": "プロフィール",
+      "EMAIL": "Eメール",
+      "PHONE": "電話番号"
+    },
+    "RESET_CACHE": "キャッシュをリセットする"
+  },
+
+  "OPTIMIZE": {
+    "DIGITAL_FOOTPRINT": {
+      "DIGITAL_FOOTPRINT": "デジタル足跡"
+    },
+    "CONNECT": {
+      "CONNECT": "コネクト",
+      "GET_RECOMMENDATIONS": "ソーシャルアカウントの追加",
+      "ADD_FOR_ANALYSIS": "＊アカウントマネージャにご相談ください",
+      "ARE_YOU_SURE": "こちらでよろいでしょうか？",
+      "ARE_YOU_SURE_DISCONNECT": "{{ network }} の登録を削除してもよろしいでしょうか？",
+      "ADD": "追加"
+    }
+  },
+
+  "MESSAGE_ADMIN": {
+    "MESSAGE_FROM": "Qnaryからのメッセージ",
+    "QNARY_INSIGHTS": "Qnaryインサイト",
+    "QNARY_ADMINS": "Qnaryアドミン",
+    "QNARY_APPROVALS": "Qnary承認",
+    "MESSAGE_SENT": "メッセージを送信しました"
+  },
+
+  "NETWORK_TERMS": {
+    "TWITTER": {
+      "CONNECTIONS": "Followers"
+    },
+    "GOOGLEPLUS": {
+      "CONNECTIONS": "Followers"
+    },
+    "GOOGLE_PLUS": {
+      "CONNECTIONS": "Followers"
+    },
+    "FACEBOOK": {
+      "CONNECTIONS": "Friends"
+    },
+    "LINKEDIN": {
+      "CONNECTIONS": "Connections"
+    },
+    "INSTAGRAM": {
+      "CONNECTIONS": "Followers"
+    }
+  },
+
+  "DISPLAY_NAMES": {
+    "GOOGLE": "Google",
+    "BING": "Bing",
+    "GOOGLE_CSE": "Google",
+    "GOOGLECSE": "Google",
+    "GOOGLE_IMAGES": "Googleイメージ",
+    "GOOGLEIMAGES": "Googleイメージ",
+
+    "TWITTER": "Twitter",
+    "LINKEDIN": "LinkedIn",
+    "FACEBOOK": "Facebook",
+    "GOOGLE_PLUS": "Google+",
+    "GOOGLEPLUS": "Google+",
+    "INSTAGRAM": "Instagram",
+    "TUMBLR": "Tumblr",
+    "YOUTUBE": "YouTube",
+
+    "ABOUTME": "about.me",
+    "ANGELLIST": "AngelList",
+    "BEHANCE": "Behance",
+    "CRUNCHBASE": "Crunchbase",
+    "FLICKR": "Flickr",
+    "KLOUT": "Klout",
+    "PINTEREST": "Pinterest",
+    "QUORA": "Quora",
+    "SLIDESHARE": "Slideshare",
+    "SOUNDCLOUD": "SoundCloud",
+    "VIMEO": "Vimeo",
+    "WORDPRESS": "Wordpress",
+    "BLOG": "ブログ"
+  },
+
+  "SOCIAL": {
+    "NETWORK_PROFILE": "{{ network }} プロフィール",
+    "FOLLOWERS": "フォロワー",
+    "ENGAGEMENTS": "Engagements",
+    "SHARE": {
+      "PLEASE_PASTE_FACEBOOK": "Facebookフォームに入れるテキストを貼り付けてください",
+      "PLEASE_PASTE_INSTAGRAM": "Instagramフォームに入れるテキストを貼り付けてください",
+      "TOTAL": "Total Shares: {{total}}"
+    }
+  },
+
+  "SEARCH_RATINGS": {
+    "-1": "ネガティヴ",
+    "0": "ニュートラル",
+    "1": "ポジティブ"
+  },
+
+  "ERRORS": {
+    "DEFAULT": "エラー：再度やり直してください",
+    "AUTHENTICATION_DISABLED": "@:ERRORS.DEFAULT",
+    "EMAIL_TAKEN": "このメールアドレスは存在しません",
+    "INVALID_ARGUMENTS": "@:ERRORS.DEFAULT",
+    "INVALID_CONFIGURATION": "@:ERRORS.DEFAULT",
+    "INVALID_CREDENTIALS": "この証明書は存在していません",
+    "INVALID_EMAIL": "こちらのEメールは無効です",
+    "INVALID_ORIGIN": "@:ERRORS.DEFAULT",
+    "INVALID_PASSWORD": "このパスワートは無効です",
+    "INVALID_PROVIDER": "@:ERRORS.DEFAULT",
+    "INVALID_TOKEN": "@:ERRORS.DEFAULT",
+    "INVALID_USER": "このユーザーは存在していません",
+    "NETWORK_ERROR": "@:ERRORS.DEFAULT",
+    "PROVIDER_ERROR": "@:ERRORS.DEFAULT",
+    "TRANSPORT_UNAVAILABLE": "@:ERRORS.DEFAULT",
+    "UNKNOWN_ERROR": "@:ERRORS.DEFAULT",
+    "USER_CANCELLED": "@:ERRORS.DEFAULT",
+    "USER_DENIED": "@:ERRORS.DEFAULT",
+    "PASSWORD_MUST_BE_DIFFERENT": "以前のパスワードとは異なるパスワードをお選びください",
+    "PASSWORD_TOO_SHORT": "@:SETTINGS.CHANGE_PASSWORD.REQUIREMENTS",
+    "PASSWORDS_DO_NOT_MATCH": "パスワードが一致しません",
+    "ERROR_CHANGING_PASSWORD": "エラー：パスワード変更",
+    "ERROR_REGISTERING_NOTIFICATIONS": "エラー 再入力",
+    "EMAIL_IN_USE": "メールは既に使用されています",
+    "REQUIRES_RECENT_LOGIN": "最近のログインが必要です",
+    "ERROR_CHANGING_EMAIL": "エラー：電子メールを変更中の"
+  },
+
+  "REPORT": {
+    "NO_DATA": "No data available."
+  }
+}

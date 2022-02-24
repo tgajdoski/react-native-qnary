@@ -1,0 +1,73 @@
+{
+    "project_info": {
+      "project_number": "582735679903",
+      "firebase_url": "https://qnary-dev.firebaseio.com",
+      "project_id": "qnary-dev",
+      "storage_bucket": "qnary-dev.appspot.com"
+    },
+    "client": [
+      {
+        "client_info": {
+          "mobilesdk_app_id": "1:582735679903:android:568bc2067d998c2b",
+          "android_client_info": {
+            "package_name": "com.qnary.qnary.dev"
+          }
+        },
+        "oauth_client": [
+          {
+            "client_id": "582735679903-s3cgit9irj1s4grun2v4cjq8cic770uc.apps.googleusercontent.com",
+            "client_type": 3
+          }
+        ],
+        "api_key": [
+          {
+            "current_key": "AIzaSyDYP8qZYdoooYVnFKVGOMbQFNj7nM8WYsQ"
+          }
+        ],
+        "services": {
+          "analytics_service": {
+            "status": 1
+          },
+          "appinvite_service": {
+            "status": 1,
+            "other_platform_oauth_client": []
+          },
+          "ads_service": {
+            "status": 2
+          }
+        }
+      },
+      {
+        "client_info": {
+          "mobilesdk_app_id": "1:582735679903:android:db8ec11cca44d502",
+          "android_client_info": {
+            "package_name": "com.qnary.react.native"
+          }
+        },
+        "oauth_client": [
+          {
+            "client_id": "582735679903-s3cgit9irj1s4grun2v4cjq8cic770uc.apps.googleusercontent.com",
+            "client_type": 3
+          }
+        ],
+        "api_key": [
+          {
+            "current_key": "AIzaSyDYP8qZYdoooYVnFKVGOMbQFNj7nM8WYsQ"
+          }
+        ],
+        "services": {
+          "analytics_service": {
+            "status": 1
+          },
+          "appinvite_service": {
+            "status": 1,
+            "other_platform_oauth_client": []
+          },
+          "ads_service": {
+            "status": 2
+          }
+        }
+      }
+    ],
+    "configuration_version": "1"
+  }

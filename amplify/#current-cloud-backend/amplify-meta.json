@@ -1,0 +1,41 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "qnarymobile-20181004174946-authRole",
+			"UnauthRoleArn": "arn:aws:iam::915366787021:role/qnarymobile-20181004174946-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::915366787021:role/qnarymobile-20181004174946-authRole",
+			"Region": "us-east-1",
+			"DeploymentBucketName": "qnarymobile-20181004174946-deployment",
+			"UnauthRoleName": "qnarymobile-20181004174946-unauthRole",
+			"StackName": "qnarymobile-20181004174946",
+			"StackId": "arn:aws:cloudformation:us-east-1:915366787021:stack/qnarymobile-20181004174946/1f233de0-c7ed-11e8-be6f-503f23fb5536"
+		}
+	},
+	"notifications": {
+		"com.qnary.react.native": {
+			"service": "Pinpoint",
+			"output": {
+				"Name": "com.qnary.react.native",
+				"Id": "39f5b0f8c90a41ef844c5605f1f56e60",
+				"Region": "us-east-1"
+			},
+			"lastPushTimeStamp": "2018-10-04T15:50:47.799Z"
+		}
+	},
+	"auth": {
+		"cognitoead4f4ad": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/qnarymobile-20181004174946-deployment/amplify-cfn-templates/auth/cognitoead4f4ad-cloudformation-template.yml",
+				"logicalId": "authcognitoead4f4ad"
+			},
+			"lastPushTimeStamp": "2018-10-04T15:52:41.803Z",
+			"output": {
+				"IdentityPoolId": "us-east-1:7b6f0f47-3665-406e-be38-e2e9fa66fa20",
+				"IdentityPoolName": "qnarymobile_identitypool_c57419a7"
+			},
+			"lastPushDirHash": "A943pYkoqde0Lxpv/Blkr93Uesc="
+		}
+	}
+}

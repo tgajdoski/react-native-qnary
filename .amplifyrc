@@ -1,0 +1,14 @@
+{
+    "providers": {
+        "awscloudformation": {
+            "AuthRoleName": "qnarymobile-20181004174946-authRole",
+            "UnauthRoleArn": "arn:aws:iam::915366787021:role/qnarymobile-20181004174946-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::915366787021:role/qnarymobile-20181004174946-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "qnarymobile-20181004174946-deployment",
+            "UnauthRoleName": "qnarymobile-20181004174946-unauthRole",
+            "StackName": "qnarymobile-20181004174946",
+            "StackId": "arn:aws:cloudformation:us-east-1:915366787021:stack/qnarymobile-20181004174946/1f233de0-c7ed-11e8-be6f-503f23fb5536"
+        }
+    }
+}
